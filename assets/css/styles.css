@@ -176,6 +176,7 @@ header nav li {
 .hero-content-area {
 	opacity: 0;
 	margin-top: 100px;
+	z-index: 7;
 	animation: 1s slidefade 1s forwards;
 }
 @keyframes slidefade {
@@ -316,14 +317,28 @@ header nav li {
     transition-timing-function: ease, ease, ease;
     transition-delay: 0s, 0s, 0s;
 }
+.comment-element .comment{
+	max-width: 775px;
+	padding: 0 20px;
+	margin-bottom: 30px;
+	text-align: center;
+    font-style: italic;
+}
+.comment-element h4{
+	margin: 10px 0 0 0;
+}
+.comment-element h5{
+	margin: px 0 0 0;
+}
 .elementor-container{
     max-width: 1140px;
-    display: flex;
     margin-right: auto;
     margin-left: auto;
     position: relative;
+	padding: 0px 50px;
+	color: white;
 }
-.testimonials > .elementor-container> .heading{
+.testimonials .heading{
     margin-bottom: 20px;
     font-size: 32px;
     color: rgb(255, 255, 255);
@@ -334,6 +349,24 @@ header nav li {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     text-align: center;
+}
+.testimonials .thumbnail{
+  background-color:gray;
+  margin:10px;
+  width:100px;
+  height:100px;
+  border: 2px solid white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.testimonials .comment-element{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.testimonials .thumbnail.circle{
+  border-radius: 100%;
+  margin:0 auto;
 }
 
 @media (max-width: 800px) {
