@@ -324,6 +324,12 @@ header nav li {
 	text-align: center;
     font-style: italic;
 }
+@media (max-width: 800px) {
+	.comment-element .comment{
+		font-size: .5rem;
+	}
+}
+
 .comment-element h4{
 	margin: 10px 0 0 0;
 }
@@ -335,7 +341,7 @@ header nav li {
     margin-right: auto;
     margin-left: auto;
     position: relative;
-	padding: 0px 50px;
+	/*padding: 0px 50px;*/
 	color: white;
 }
 .testimonials .heading{
