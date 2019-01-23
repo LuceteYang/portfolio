@@ -1,7 +1,7 @@
   $(function() {
   var body = $('#starshine'),
       template = $('.template.shine'),
-      stars =  500,
+      stars = 300,
       sparkle = 20;
   
     
