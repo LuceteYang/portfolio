@@ -15,7 +15,6 @@
     }).addClass(size).appendTo(body);
   };
   var width = $( window ).width();
-  console.log('width',width);
   for(var i = 0; i < stars; i++) {
     if(width<800){
       size = 'small';
