@@ -14,14 +14,19 @@
       mozAnimationDelay: (Math.random() * sparkle) + 's'
     }).addClass(size).appendTo(body);
   };
- 
+  var width = $( window ).width();
+  console.log('width',width);
   for(var i = 0; i < stars; i++) {
-    if(i % 2 === 0) {
+    if(width<800){
       size = 'small';
-    } else if(i % 3 === 0) {
-      size = 'medium';
-    } else {
-      size = 'large';
+    }else{
+      if(i % 2 === 0) {
+        size = 'small';
+      } else if(i % 3 === 0) {
+        size = 'medium';
+      } else {
+        size = 'large';
+      }
     }
     
     createStar();
