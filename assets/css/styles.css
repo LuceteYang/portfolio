@@ -15,7 +15,7 @@ nav, ul {
 a {
 	text-decoration:none;
 	cursor: pointer;
-	opacity: 0.75;
+	/*opacity: 0.75;*/
 	color: #fff;
 }
 a:hover {
@@ -45,12 +45,12 @@ hr {
 	border: 0;
 	margin-bottom: 50px;
 }
-section h3.title { 
+/*section h3.title { 
 	text-transform: capitalize;
 	font: bold 32px "Open Sans", sans-serif;
 	margin-bottom: 30px;
 	text-align: center;
-}
+}*/
 section p {
 	max-width: 775px;
 	line-height: 2;
@@ -203,6 +203,12 @@ header nav li {
 	flex-basis: 40%;
     box-shadow: 0 20px 80px 0 rgba(0,0,0,.45);
     transition: all 300ms 100ms cubic-bezier(0.175, 0.885, 0.32,1.275);
+}
+.destinations .title { 
+	text-transform: capitalize;
+	font: bold 32px "Open Sans", sans-serif;
+	margin-bottom: 30px;
+	text-align: center;
 }
 .destinations .grid li .cover {
 	position: relative;
@@ -364,6 +370,52 @@ header nav li {
 	  flex-basis: 100%;
 	  margin: 0 0 20px 0;
 	} 
+}
+.project {
+	padding-top: 84px;
+	flex-direction: row;
+}
+.project .title{
+	text-transform: capitalize;
+	font: bold 32px "Open Sans", sans-serif;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-top: 1rem;
+}
+.project a {
+    color: black;
+}
+.project .title:after{
+      content:'';
+      border-bottom:1px solid #f06449;
+      width:4rem;
+      display: block;
+      margin: auto;
+      margin-top:1rem;
+}
+.project .text-area{
+	flex-basis: 50%;
+}
+.project .image-area{
+	padding:20px;
+	flex-basis: 50%;
+
+}
+.project-img{
+	width: 100%;
+}
+@media (max-width: 800px) {
+	.project {
+		padding-top: 103px;
+		flex-direction: column-reverse;
+	}
+	.project .text-area{
+		flex-basis: 50%;
+	}
+	.project .image-area{
+		padding-top:5px;
+		flex-basis: 50%;
+	}
 }
 
 /*Footer Section*/
