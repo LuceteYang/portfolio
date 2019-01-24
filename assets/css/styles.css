@@ -443,6 +443,14 @@ header nav li {
 .project-img{
 	width: 100%;
 }
+
+.project-sub-left-img{
+	margin-right: 2%;
+	width: 49%;	
+}
+.project-sub-right-img{
+	width: 49%;	
+}
 @media (max-width: 800px) {
 	.project {
 		padding-top: 103px;
