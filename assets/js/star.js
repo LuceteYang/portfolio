@@ -24,7 +24,8 @@
       } else if(i % 3 === 0) {
         size = 'medium';
       } else {
-        size = 'large';
+        size = 'medium';
+        // size = 'large';
       }
     }
     
