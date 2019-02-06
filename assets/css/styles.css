@@ -531,6 +531,9 @@ footer p {
 .project-img{
 	width: 100%;
 }
+.project .text-area .content {
+	padding: 0;
+}
 
 .project-sub-left-img{
 	margin-right: 2%;
@@ -562,9 +565,6 @@ footer p {
 	}
 	.project .next-project {
 		width: 30px;
-	}
-	.project .content{
-		/*font-size: 5px;*/
 	}
 	#sample-format, #sample-width{
 		width: 40px;
