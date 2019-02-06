@@ -564,7 +564,7 @@ footer p {
 		width: 30px;
 	}
 	.project .content{
-		font-size: 5px;
+		/*font-size: 5px;*/
 	}
 	#sample-format, #sample-width{
 		width: 40px;
