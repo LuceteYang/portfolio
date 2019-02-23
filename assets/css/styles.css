@@ -258,7 +258,7 @@ header nav li {
 .works .grid .work_item .work_caption:before,.works .grid .work_item .work_caption:after{opacity:0;display:block;position:absolute;top:20px;right:20px;left:20px;bottom:20px;content:''}
 .works .grid .work_item .work_caption:before{border-top:1px solid #fff;border-bottom:1px solid #fff;-webkit-transform:scale(0, 1);transform:scale(0, 1);-webkit-transition:opacity 0.45s, -webkit-transform 0.5s;transition:opacity 0.45s, transform 0.5s}
 .works .grid .work_item .work_caption:after{border-left:1px solid #fff;border-right:1px solid #fff;-webkit-transform:scale(1, 0);transform:scale(1, 0);-webkit-transition:opacity 0.35s, -webkit-transform 0.5s;transition:opacity 0.35s, transform 0.5s}
-.works .grid .work_item .external .caption_title:before{display:block;position:absolute;bottom:0.2em;width:1em;max-width:30px;height:1em;max-height:30px;content:'';background-image:url(../images/ico_link.svg);background-size:100%}
+.works .grid .work_item .external .caption_title:before{display:block;position:absolute;bottom:0.2em;width:1em;max-width:30px;height:1em;max-height:30px;content:'';background-size:100%}
 .works .grid .work_item:hover .work_image{opacity:0.3}
 .works .grid .work_item:hover .work_caption{display:flex;align-items: center;justify-content: center;}
 .works .grid .work_item:hover .work_caption .caption_textWrap{display:block}
@@ -322,6 +322,9 @@ header nav li {
 	margin-bottom: 30px;
 	text-align: center;
     font-style: italic;
+}
+.testimonials .elementor-container .comment-container.is-animated{
+	visibility: hidden;
 }
 @media (max-width: 800px) {
 	.comment-element .comment{
